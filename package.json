@@ -1,11 +1,16 @@
 {
-  "name": "meta-webhook",
+  "name": "meta-webhook-proxy",
   "version": "1.0.0",
+  "description": "Proxy de webhook da Meta para o n8n",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^1.6.7",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
